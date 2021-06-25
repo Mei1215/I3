@@ -1,0 +1,2 @@
+!/bin/bash
+sox dq1.wav -t raw -c 1 - | ./high 8192 20 20000 0| play -t raw -b 16 -c 1 -e s -r 44100 -
